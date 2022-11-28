@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*head*/
+#titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #576F72;
+    margin-left: 37%;
+}
+
+#subtitulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #576F72;
+    margin-left: 38%;
+}
+
+#check{
+    display: inline-block;
+}
+
+/*Retira a borda*/
+fieldset{
+    border: 0;
+}
+
+/*Posicionamento do body*/
+body{
+    background-color: #F9F9F9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    color: #576F72;
+    margin-left:2%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+/*Coloração dos placeholders*/
+input, select, textarea, button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    color: #576F72;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+/*Distanciamento do conteúdo*/
+.campo{
+    margin-bottom: 1em;
+}
+
+/*Margem do começo da frase*/
+.campo label{
+    color: #576F72;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+/*Altera a posição, sombra das caixas e borda*/
+.campo input[type="text"], .campo input[type="email"], .campo select, .caixa-de-texto textarea{
+    padding: 0.2em;
+    border: 1px solid #576F72;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+    width: 41%;
+    display: block;
+    outline: 0;
+}
+
+/*Posição da caixa de texto*/
+textarea {
+    width: 50%;
+    display: block; 
+    margin-bottom: 10%;  
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+/*Fundo do campo de texto*/
+.campo input:focus, .campo select:focus, .caixa-de-texto textarea:focus{
+    background:#F9F9F9;
+}
+
+/*Botão ENVIAR*/
+.botao{
+    font-size: 1.2em;
+    background:#576F72;
+    border: 0;
+    margin-bottom: em;
+    color: #F9F9F9;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+    text-shadow: 1px 1px 1px rgb(142, 187, 173);
+    position: absolute;
+    top: 110%;
+    left: 22%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: #A2B38B;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+/*Posição do footer, h4 e h5*/
+h4{
+    position: center;
+}
+
+footer, h4, h5{
+    margin-left: 22%;
+}
+
+h5{
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
